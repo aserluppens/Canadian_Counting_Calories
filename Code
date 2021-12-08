@@ -1,0 +1,48 @@
+calories = 0
+
+burger_choice = int(input())
+
+if burger_choice == 1:
+    calories += 461
+elif burger_choice == 2:
+    calories += 431
+elif burger_choice == 3:
+    calories += 420
+elif burger_choice == 4:
+    calories +=0
+
+    
+three_side_order = int(input())
+
+if three_side_order == 1:
+    calories += 100
+elif three_side_order ==2:
+    calories += 57
+elif three_side_order ==3:
+    calories +=70 
+elif three_side_order == 4:
+    calories +=0
+
+drink_choice = int(input())
+
+if drink_choice ==1:
+    calories += 130
+elif drink_choice == 2:
+    calories += 160
+elif drink_choice == 3:
+    calories += 118
+elif drink_choice == 4:
+    calories +=0
+    
+dessert_choice = int(input())
+
+if dessert_choice ==1:
+    calories += 167
+elif dessert_choice ==2:
+    calories +=266
+elif dessert_choice ==3:
+    calories += 75
+elif dessert_choice == 4:
+    calories += 0
+    
+print('Your total Calorie count is', str(calories)+'.')
